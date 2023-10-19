@@ -1,0 +1,48 @@
+button{
+    display: block;
+    width:150px;
+    padding: 10px;
+    margin-top: 15px;
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+     text-align: center;
+     color: white;
+}
+#f1{
+    text-align: center;
+    color: rgb(12, 172, 12);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#f2{
+    text-align: left;
+    color: rgba(173, 184, 11, 0.767);
+    font-family:monospace;
+}
+#f3{
+    text-align: left;
+    color:pink;
+    font-family: cursive;
+}
+#f4{
+    text-align: left;
+    color: slategrey;
+    font-size: 20px;
+}
+#f5{
+    text-align: left;
+    color: rgb(165, 65, 212);
+    font-size: 20px;
+
+}
+#f6{
+    text-align: left;
+    color: rgba(148, 127, 42, 0.989);
+    font-size: 20px;   
+}
+body{
+    background-color: #68897f49;
+}

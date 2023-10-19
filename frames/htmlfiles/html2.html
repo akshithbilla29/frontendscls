@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML BASICS</title>
+    <link rel="stylesheet" href=".\html2.css" />
+
+    <style>
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    </style>
+    <script>
+      function searchNames() {
+        var input = document.getElementById("s1").value.toLowerCase();
+        var buttons = document.querySelectorAll("button.c1");
+
+        buttons.forEach(function (button) {
+          var linkText = button.querySelector("a").innerText.toLowerCase();
+          if (linkText.includes(input)) {
+            button.style.display = "block";
+          } else {
+            button.style.display = "none";
+          }
+        });
+      }
+    </script>
+  </head>
+  <body>
+    <h3><font id="j9">HTML BASICS</font></h3>
+    <table>
+      <tr>
+        <td>
+          <input
+            type="search"
+            name="search"
+            id="s1"
+            onkeyup="searchNames()"
+            placeholder="Search programs here..."
+          />
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <button id="t1" class="c1">
+            <a href="..\htmlfiles\html structure.html" target="rightframe">
+              Basic Structure</a
+            >
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button id="t2" class="c1">
+            <a href="..\htmlfiles\headings.html" target="rightframe"
+              >Headings</a
+            >
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button id="t3" class="c1">
+            <a href="..\htmlfiles\Comments.html" target="rightframe"
+              >Comments</a
+            >
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button id="t4" class="c1">
+            <a href="..\htmlfiles\ordered lists.html" target="rightframe"
+              >Ordered List</a
+            >
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button id="t5" class="c1">
+            <a href="..\htmlfiles\unordered lists.html" target="rightframe"
+              >UnOrdered List</a
+            >
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button id="t6" class="c1">
+            <a href="..\htmlfiles\paragraphs.html" target="rightframe"
+              >Paragraph</a
+            >
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button id="t7" class="c1">
+            <a href="..\htmlfiles\Adding Images.html" target="rightframe"
+              >Adding Images</a
+            >
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button id="t8" class="c1">
+            <a href="..\htmlfiles\break tags.html" target="rightframe">
+              Break Tag</a
+            >
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button id="t9" class="c1">
+            <a href="..\htmlfiles\Href Links.html" target="rightframe"
+              >Href Links</a
+            >
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button id="t10" class="c1">
+            <a href="..\htmlfiles\formatting tags.html" target="rightframe"
+              >Formatting Tag</a
+            >
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button id="t11" class="c1">
+            <a href="..\htmlfiles\basic table.html" target="rightframe"
+              >Basic Table</a
+            >
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button id="t12" class="c1">
+            <a href="..\htmlfiles\table using colspan.html" target="rightframe"
+              >Table using Colspan</a
+            >
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button id="t13" class="c1">
+            <a href="..\htmlfiles\table using rowspan.html" target="rightframe"
+              >Table using Rowspan</a
+            >
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button id="t14" class="c1">
+            <a href="..\htmlfiles\html entities.html" target="rightframe"
+              >HTML Entities</a
+            >
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button id="t15" class="c1">
+            <a href="..\htmlfiles\marquee.html" target="rightframe"
+              >Marquee Tag</a
+            >
+          </button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <button id="t16" class="c1">
+            <a href="..\htmlfiles\input types.html" target="rightframe"
+              >Input Types</a
+            >
+          </button>
+        </td>
+      </tr>
+
+      <tr>
+        <td>
+          <button id="t17" class="c1">
+            <a href="..\htmlfiles\basic form.html" target="rightframe"
+              >Basic Form</a
+            >
+          </button>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>

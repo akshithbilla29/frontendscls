@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript</title>
+    <link rel="stylesheet" href="html2.css" />
+
+    <style>
+      a {
+        text-decoration: none;
+        color: black;
+      }
+    </style>
+    <script>
+      function searchNames() {
+        var input = document.getElementById("s1").value.toLowerCase();
+        var buttons = document.querySelectorAll("button.c1");
+
+        buttons.forEach(function (button) {
+          var linkText = button.querySelector("a").innerText.toLowerCase();
+          if (linkText.includes(input)) {
+            button.style.display = "block";
+          } else {
+            button.style.display = "none";
+          }
+        });
+      }
+    </script>
+  </head>
+  <body>
+    <h3><font id="j9">JavaScript</font></h3>
+
+    <table>
+      <tr>
+        <td>
+          <input
+            type="search"
+            name="search"
+            id="s1"
+            onkeyup="searchNames()"
+            placeholder="Search programs here..."
+          />
+        </td>
+      </tr>
+
+      <tr>
+        <th>
+          <button id="t1" class="c1">
+            <a href=".\variables.html" target="rightframe">Variables</a>
+          </button>
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <button id="t2" class="c1">
+            <a href=".\comments in js.html" target="rightframe"
+              >Comments in js</a
+            >
+          </button>
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <button id="t3" class="c1">
+            <a href=".\if condition.html" target="rightframe">if condition</a>
+          </button>
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <button id="t4" class="c1">
+            <a href=".\switch in js.html" target="rightframe"> Switch in js</a>
+          </button>
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <button id="t5" class="c1">
+            <a href=".\while loop.html" target="rightframe">While loop</a>
+          </button>
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <button id="t6" class="c1">
+            <a href=".\do While.html" target="rightframe">Do While </a>
+          </button>
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <button id="t7" class="c1">
+            <a href=".\for Loop.html" target="rightframe">For Loop </a>
+          </button>
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <button id="t8" class="c1">
+            <a href=".\array in js.html" target="rightframe">Array in js</a>
+          </button>
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <button id="t9" class="c1">
+            <a href=".\Number Methods.html" target="rightframe"
+              >Number Methods
+            </a>
+          </button>
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <button id="t10" class="c1">
+            <a href=".\string methods.html" target="rightframe"
+              >String methods
+            </a>
+          </button>
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <button id="t11" class="c1">
+            <a href=".\functions.html" target="rightframe">Functions</a>
+          </button>
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <button id="t12" class="c1">
+            <a href=".\objectss.html" target="rightframe">Objects</a>
+          </button>
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <button id="t13" class="c1">
+            <a href=".\array Sort.html" target="rightframe">Array Sort</a>
+          </button>
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <button id="t14" class="c1">
+            <a href=".\palindrome.html" target="rightframe">Palindrome </a>
+          </button>
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <button id="t15" class="c1">
+            <a href=".\factorial of no.html" target="rightframe"
+              >Factorial of given number
+            </a>
+          </button>
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <button id="t16" class="c1">
+            <a href=".\odd 1-100.html" target="rightframe"
+              >Odd Numbers 1-100
+            </a>
+          </button>
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <button id="t17" class="c1">
+            <a href=".\even no's 1-100.html" target="rightframe"
+              >Even Numbers 1-100
+            </a>
+          </button>
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <button id="t18" class="c1">
+            <a href=".\Hiding html elements.html" target="rightframe"
+              >Hide HTML Elements
+            </a>
+          </button>
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <button id="t19" class="c1">
+            <a href=".\js in head section.html" target="rightframe"
+              >JavaScript in Head Section
+            </a>
+          </button>
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <button id="t20" class="c1">
+            <a href=".\js in body section.html" target="rightframe"
+              >JavaScript in Body Section
+            </a>
+          </button>
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <button id="t21" class="c1">
+            <a href=".\js printing current window.html" target="rightframe"
+              >Print Current Window using JavaScript
+            </a>
+          </button>
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <button id="t22" class="c1">
+            <a href=".\bulb on-off.html" target="rightframe"
+              >Bulb On/Off using JavaScript
+            </a>
+          </button>
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <button id="t23" class="c1">
+            <a href=".\mathematical operations.html" target="rightframe"
+              >Mathematical Operations
+            </a>
+          </button>
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <button id="t24" class="c1">
+            <a href=".\registration form.html" target="rightframe"
+              >Registration form
+            </a>
+          </button>
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <button id="t25" class="c1">
+            <a href=".\login form.html" target="rightframe">Login form </a>
+          </button>
+        </th>
+      </tr>
+      <tr>
+        <th>
+          <button id="t26" class="c1">
+            <a href=".\armstrong no.html" target="rightframe">Armstrong no </a>
+          </button>
+        </th>
+      </tr>
+    </table>
+  </body>
+</html>
