@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <style>
+        th{
+            color: yellow;
+        }
+    </style>
+</head>
+<body>
+    <table border="0" cellspacing="0" cellpadding="10" width="600px" height="200px" bgcolor="navy">
+        <tr>
+            <th colspan="2" align="left" bgcolor="orange">Sign Up</th>
+        </tr>
+        <tr>
+            <th>First Name</th>
+            <td><input type="name" placeholder="Enter First Name..." pattern="[a-zA-Z]" style="width: 300px;height: 20px;" ></td>
+        </tr>
+        <tr>
+            <th>Last Name</th>
+            <td><input type="name" placeholder="Enter Last Name..." pattern="[a-zA-Z]" style="width: 300px;height: 20px;"></td>
+        </tr>
+        <tr>
+            <th>Screen Name</th>
+            <td><input type="name" placeholder="Enter Screen Name..." pattern="[a-zA-Z]" style="width: 300px;height: 20px;"></td>
+        </tr>
+        <tr>
+            <th>Date Of Birth</th>
+            <td><input type="datetime-local" style="width: 300px;height: 20px;"></td>
+        </tr>
+        <tr>
+            <th>Gender</th>
+            <th align="left"><input type="radio" >Male <input type="radio">Female</th>
+        </tr>
+        <tr>
+            <th>Country</th>
+            <td>
+                <select name="drop-down" id="" style="width: 300px;height: 20px;">
+                    <option value="USA">USA</option>
+                    <option value="INDIA">INDIA</option>
+                    <option value="CHINA">CHINA</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <th>Email</th>
+            <td><input type="email" placeholder="Enter Email..."  style="width: 300px;height: 20px;"></td>
+        </tr>
+        <tr>
+            <th>Phone</th>
+            <td><input type="number" placeholder="Enter Phone..." pattern={0-9} style="width: 300px;height: 20px;"></td>
+        </tr>
+        <tr>
+            <th>Password</th>
+            <td><input type="password" style="width: 300px;height: 20px;"></td>
+        </tr>
+        <tr>
+            <th>Confirm Password</th>
+            <td><input type="password" style="width: 300px;height: 20px;"></td>
+        </tr>
+        <tr>
+            <td></td>
+            <th align="left"><input type="checkbox">I agree to the Terms of Use</th>
+        </tr>
+        <tr align="right" bgcolor="orange">
+            <td colspan="2" ><input type="button" value="Submit">  <input type="button" value="Cancel" ></td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Information</title>
+</head>
+<body bgcolor="darkgrey">
+    <form>
+    <table border="0"cellpadding="8"cellspacing="0" align="center">
+        
+        <h2 align="center">STUDENT INFORMATION</h2>
+        <tr>
+            <td><label for="name">Name Of The Student</label></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td><label for="Rollno">RollNo</label></td>
+            <td><input type="text"></td>
+        </tr>
+        <tr>
+            <td><label for="department">Department</label></td>
+            <td>
+                <select id="dropdown" name="dropdown">
+                    <option value="select" align="center">CSE</option>
+                    <option value="maths">ECE</option>
+                    <option value="physics">AIML</option>
+                    <option value="chemistry">EEE</option>
+                </select>
+            </td>
+        </tr>
+        <tr>
+            <td><label for="DOB">Date Of Birth</label></td>
+            <td><input type="datetime-local"></td>
+        </tr>
+        <tr>
+            <td><label for="gender">Gender</label></td>
+            <td><input type="radio">Male <input type="radio">Female</td>
+        </tr>
+        <tr>
+            <td><label for="email">Email Id</label></td>
+            <td><input type="email"></td>
+        </tr>
+        <tr>
+            <td><label for="address">Address</label></td>
+            <td><textarea name="address" id="" cols="30" rows="4"></textarea></td>
+        </tr>
+        <tr>
+            <td><label for="lang">Known Lnaguages</label></td>
+            <td><input type="checkbox">Telugu <input type="checkbox">Hindi <input type="checkbox">English</td>
+        </tr>
+        <tr>
+            <td><input type="button" value="Submit"></td>
+            <td><input type="button" value="reset"></td>
+        </tr>
+    </table>
+    </form>
+</body>
+</html>

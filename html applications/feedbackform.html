@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Feedback Form</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f1f1f1;
+    }
+
+    .container {
+      max-width: 500px;
+      margin: 0 auto;
+      background-color: #fff;
+      box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+      border-radius: 5px;
+      padding: 20px;
+    }
+
+    h2 {
+      text-align: center;
+    }
+
+    label {
+      display: block;
+      font-weight: bold;
+      margin-top: 10px;
+    }
+
+    select, input[type="radio"], input[type="checkbox"], textarea {
+      width: 100%;
+      padding: 5px;
+      margin-top: 5px;
+      border: 1px solid #ccc;
+      border-radius: 3px;
+      box-sizing: border-box;
+    }
+
+    input[type="radio"], input[type="checkbox"] {
+      margin-right: 5px;
+    }
+
+    button {
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px 15px;
+      border: none;
+      cursor: pointer;
+      margin-top: 10px;
+      width: 100%;
+      border-radius: 3px;
+    }
+
+    button:hover {
+      background-color: #45a049;
+    }
+
+   
+  </style>
+</head>
+<body>
+      <div class="container">
+        <form id="feedbackForm">
+          <h2>Feedback Form</h2>
+          <label for="subject">Subject:</label>
+          <select id="subject" required>
+            <option value="HCI">HCI (Human-Computer Interaction)</option>
+            <option value="MPCA">MPCA (Micro Processor and Computer Architecture)</option>
+            <option value="DS">DS (Data Structures)</option>
+            <option value="DMS">DMS (Discrete Mathematical Science)</option>
+            <option value="P&S">P&S (Probability & Statistics)</option>
+          </select>
+    
+          <label for="rating">How would you rate this subject?</label>
+          <select id="rating" required>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+          </select>
+    
+          <label>What did you like about the subject? (Check all that apply)</label>
+          <div id="likes">
+            <input type="checkbox" name="likes" value="interesting">Interesting
+            <input type="checkbox" name="likes" value="well-taught">Well Taught
+            <input type="checkbox" name="likes" value="practical">Practical
+          </div>
+    
+          <label for="improvements">What improvements would you suggest for the subject?</label>
+          <textarea id="improvements"></textarea>
+          <button type="submit">Submit Feedback</button>
+        </form>
+      </div>
+    </body>
+    </html>
+    

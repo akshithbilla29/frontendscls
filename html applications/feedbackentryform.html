@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Feedback Entry</title>
+</head>
+<style>
+.a1{
+font-weight:900;
+font-size:x-large;
+font-family: Arial, Helvetica, sans-serif;
+}
+.a2{
+font-weight:bolder;
+font-size:large;
+}
+.a3{
+font-weight:bold;
+font-size:medium;
+font-family: Arial, Helvetica, sans-serif;
+}
+.a4{
+font-weight:bold;
+font-size:medium;
+}
+input[type="radio"] {
+transform: scale(2.0); 
+}
+#a5 {
+width: 130px;
+height: 32px;
+font-size: 14px;
+border-radius: 12px;
+color:blue;
+border: 1px solid blue;
+}
+#a6 {
+width: 130px;
+height: 32px;
+font-size: 14px;
+border-radius: 12px;
+border:blue;
+color:white;
+background-color: blue;
+} 
+a5:hover{
+width: 130px;
+height: 32px;
+font-size: 14px;
+border-radius: 14px;
+color:blue;
+outline:blue;
+background-color: rgb(196, 196, 243);
+}
+#a6:hover{
+width: 130px;
+height: 32px;
+font-size: 14px;
+border-radius: 14px;
+border:blue;
+color:white;
+background-color: rgb(179, 179, 225);
+}
+input[type="text"] {
+height: 40px;
+width: 100%;
+padding: 8px;
+border: 2px solid #007bff;
+border-radius: 12px;
+font-size: medium;
+box-sizing: border-box;
+}
+input[type="text"]:hover {
+border: 2px solid green;
+}
+fieldset {
+border: 2px solid #ddd;
+border-radius: 10px;
+padding: 20px;
+margin-bottom: 20px;
+}
+.container {
+HCI ASSIGNMENT - 1
+ . Page 1 
+.container {
+width: 800px;
+margin: 0 auto;
+border: 0px solid #ccc;
+padding: 20px;
+}
+</style>
+<script>
+function showAlert() {
+alert("Feedback Submitted Successfully");
+}
+</script>
+<body>
+<div class="container">
+<form onsubmit="showAlert()">
+<fieldset>
+<legend align="center" class="a1">Feedback Entry Form</legend>
+<fieldset>
+<legend align="center" class="a2">Human Computer Interaction</legend>
+<label for="name"class="a3"> Faculty Name: Nawaaz Pasha</label><br><br>
+<label for="Feedback"class="a3"> Enter Your Feedback:</label><br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="a1" value="1" required>
+<span class="a4">&nbsp;&nbsp;&nbsp;Poor&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⭐<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="a1" value="2"required>
+<span class="a4">&nbsp;&nbsp;&nbsp;Below Average&nbsp;&nbsp;&nbsp;⭐⭐<br><br></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="a1" value="3"required>
+<span class="a4">&nbsp;&nbsp;&nbsp;Satisfactory&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⭐⭐⭐<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="a1" value="4"required>
+<span class="a4">&nbsp;&nbsp;&nbsp;Good&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⭐⭐⭐⭐<br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="a1" value="5"required>
+<span class="a4">&nbsp;&nbsp;&nbsp;Excellent&nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⭐⭐⭐⭐⭐<br><br>
+</fieldset>
+<fieldset>
+<legend align="center"class="a2">Discrete Mathematical Structure</legend>
+<label for="name"class="a3"> Faculty Name: Dr K Rajchander</label><br><br>
+<label for="Feedback"class="a3"> Enter Your Feedback:</label><br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="a2" value="1"required>
+<span class="a4">
+&nbsp;&nbsp;&nbsp;Poor&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;⭐<br><br></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="a2" value="2"required>
+<span class="a4">&nbsp;&nbsp;&nbsp;Below Average&nbsp;&nbsp;&nbsp;⭐⭐<br><br></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="a2" value="3"required>
+<span class="a4">&nbsp;&nbsp;&nbsp;Satisfactory&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⭐⭐⭐<br><br></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="a2" value="4"required>
+<span class="a4">&nbsp;&nbsp;&nbsp;Good&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⭐⭐⭐⭐<br><br></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="a2" value="5"required>
+<span class="a4">&nbsp;&nbsp;&nbsp;Excellent&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;⭐⭐⭐⭐⭐<br><br></span>
+</fieldset>
+<fieldset>
+<legend align="center"class="a2">Probability & Statistics</legend>
+<label for="name"class="a3"> Faculty Name: G Nagaraju</label><br><br>
+<label for="Feedback"class="a3"> Enter Your Feedback:</label><br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="a3" value="1"required>
+<span class="a4">&nbsp;&nbsp;&nbsp;Poor&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⭐<br><br></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="a3" value="2"required>
+<span class="a4">&nbsp;&nbsp;&nbsp;Below Average&nbsp;&nbsp;&nbsp;⭐⭐<br><br></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="a3" value="3"required><span class="a4">&nbsp;&nbsp;&nbsp;Satisfactory&nbsp;&nbsp;&nbsp; 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⭐⭐⭐<br><br></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="a3" value="4"required><span class="a4">&nbsp;&nbsp;&nbsp;Good&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⭐⭐⭐⭐<br><br></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="a3" value="5"required><span class="a4">&nbsp;&nbsp;&nbsp;Excellent&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⭐⭐⭐⭐⭐<br><br></span>
+</fieldset>
+<fieldset>
+<legend align="center"class="a2">Data Structures</legend>
+<label for="name"class="a3"> Faculty Name: S Jagadish</label><br><br>
+<label for="Feedback"class="a3"> Enter Your Feedback:</label><br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="a4" value="1"required><span class="a4">&nbsp;&nbsp;&nbsp;Poor&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⭐<br><br></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="a4" value="2"required><span class="a4">&nbsp;&nbsp;&nbsp;Below Average&nbsp;&nbsp;&nbsp; ⭐⭐<br><br></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="a4" value="3"required><span class="a4">&nbsp;&nbsp;&nbsp;Satisfactory&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⭐⭐⭐<br><br></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="a4" value="4"required><span class="a4">&nbsp;&nbsp;&nbsp;Good&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⭐⭐⭐⭐<br><br></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="a4" value="5"required><span class="a4">&nbsp;&nbsp;&nbsp;Excellent&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⭐⭐⭐⭐⭐<br><br></span>
+</fieldset>
+<fieldset>
+<legend align="center"class="a2">Discrete Mathematical Structure</legend>
+<label for="name"class="a3"> Faculty Name: Dr K Rajchander</label><br><br>
+<label for="Feedback"class="a3"> Enter Your Feedback:</label><br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="a5" value="1"required><span class="a4">&nbsp;&nbsp;&nbsp;Poor&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⭐<br><br></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="a5" value="2"required><span class="a4">&nbsp;&nbsp;&nbsp;Below Average&nbsp;&nbsp;&nbsp; ⭐⭐<br><br></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="a5" value="3"required><span class="a4">&nbsp;&nbsp;&nbsp;Satisfactory&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;⭐⭐⭐<br><br></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="a5" value="4"required><span class="a4">&nbsp;&nbsp;&nbsp;Good&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ⭐⭐⭐⭐
+ . Page 2 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⭐⭐⭐⭐<br><br></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="a5" value="5"required><span class="a4">&nbsp;&nbsp;&nbsp;Excellent&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⭐⭐⭐⭐⭐<br><br></span>
+</fieldset>
+<fieldset>
+<legend align="center"class="a2">Microprocessor and Computer Architecture</legend>
+<label for="name"class="a3">Faculty Name: L Gunakar</label><br><br>
+<label for="Feedback"class="a3">Enter Your Feedback:</label><br><br>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="a6" value="1"required><span class="a4">&nbsp;&nbsp;&nbsp;Poor&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⭐<br><br></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="a6" value="2"required><span class="a4">&nbsp;&nbsp;&nbsp;Below Average&nbsp;&nbsp;&nbsp; ⭐⭐<br><br></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="a6" value="3"required><span class="a4">&nbsp;&nbsp;&nbsp;Satisfactory&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;⭐⭐⭐<br><br></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="a6" value="4"required><span class="a4">&nbsp;&nbsp;&nbsp;Good&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⭐⭐⭐⭐<br><br></span>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="radio" name="a6" value="5"required><span class="a4">&nbsp;&nbsp;&nbsp;Excellent&nbsp;&nbsp;&nbsp;&nbsp;
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;⭐⭐⭐⭐⭐<br><br></span>
+</fieldset>
+<br>
+<fieldset>
+<label for="name" class="a3">
+Any Other Suggestions:
+</label>
+<br><br>
+<input type="text" class="s" name="a7" required>
+</fieldset>
+<table border="0" cellspacing="10px">
+<tr>
+<th><button type="Reset" id="a5">Clear Feedback</button></th>
+<th><button type="Submit"id="a6">Submit Feedback</button></table></th>
+</tr>
+</fieldset>
+</form>
+</div>
+</body>
+</html>
