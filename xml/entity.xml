@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<!DOCTYPE student[
+<!ELEMENT student (#PCDATA)>
+<!ENTITY name "HEAT">
+<!ENTITY rollno "404">
+<!ENTITY subject "WAVES">
+]>
+<student>
+        &name;
+        &rollno;
+        &subject;
+</student>
+
+

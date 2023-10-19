@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function login()
+        {            
+            var uname = document.getElementById("txt1").value;
+            var pwd = document.getElementById("pwd1").value;
+            alert(name+uname+pwd);
+
+            if((uname=="akshith") && (pwd == 1234))
+            {
+                alert("authorised User");
+            }
+            else
+            {
+                alert("un authorised User");
+            }
+            
+        }
+    </script>
+</head>
+<body>
+    <form name="f1">
+		UserName:<input type="text" name="txt1" id="txt1"><br><br>
+		Password:<input type="password" name="pwd1" id="pwd1"><br><br>
+		<input type="submit" value="Click" onclick="login()">
+		</form>
+</body>
+</html>
+ 

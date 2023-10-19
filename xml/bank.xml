@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<bank>
+  <customer>
+    <accno>120</accno>
+    <name>xyz</name>
+    <bal>1000</bal>
+  </customer>
+  <customer>
+    <accno>121</accno>
+    <name>rama</name>
+    <bal>4000</bal>
+  </customer>
+  <customer>
+    <accno>122</accno>
+    <name>laxman</name>
+    <bal>5000</bal>
+  </customer>
+</bank>

@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+
+<student>
+<student1>
+		<name>JUSTIN</name>
+		<rollno>3</rollno>
+		<subject>PTT</subject>
+</student1>
+<student2>
+		<name>HARRY</name>
+		<rollno>13</rollno>
+		<subject>PTT</subject>
+</student2>
+<student3>
+		<name>WEEKND</name>
+		<rollno>132</rollno>
+		<subject>PTT</subject>
+</student3>
+</student>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        function login()
+        {
+            //alert("hello");
+            var name = document.getElementById("txt0").value;
+            var uname = document.getElementById("txt1").value;
+            var pwd = document.getElementById("pwd1").value;
+            alert(name+uname+pwd);
+            if((name="akshith") && (uname=="aks123") && (pwd == 1234))
+            {
+                if(confirm("Do You really want to continue"))
+                {
+                    alert("Enter Details are Correct");
+                }
+                else
+                {
+                    alert("Re-Enter the Details");
+                }
+            }
+            else
+            {
+                alert("un authorised User");
+            }
+            
+            
+        }
+    </script>
+</head>
+<body>
+    <form name="f1">
+		Name:<input type="text" name="txt0" id="txt0"><br><br>
+		UserName:<input type="text" name="txt1" id="txt1"><br><br>
+		Password:<input type="password" name="pwd1" id="pwd1"><br><br>
+		<input type="submit" value="Click" onclick="login()">
+		</form>
+</body>
+</html>
+
+ 

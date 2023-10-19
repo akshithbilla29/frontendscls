@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="if.xsl"?>
+<class>
+<student htno="1">
+<name>YALLA KRISHNAVENI</name>
+<section>B1</section>
+<subject>PTT</subject>
+<marks>94</marks>
+</student>
+<student htno="2">
+<name>MEGHANA SRIRAM</name>
+<section>B2</section>
+<subject>PTT</subject>
+<marks>75</marks>
+</student>
+<student htno="3">
+<name>SRI POOJA ALLAM</name>
+<section>B1</section>
+<subject>PTT</subject>
+<marks>89</marks>
+</student>
+</class>
